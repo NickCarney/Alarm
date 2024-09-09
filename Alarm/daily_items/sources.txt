@@ -1,0 +1,3 @@
+Factset found from https://github.com/visnkmr/Factset/blob/master/facts.json
+
+Quoteset found from https://github.com/vinitshahdeo/inspirational-quotes/blob/master/data/data.json

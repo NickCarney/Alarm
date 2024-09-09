@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nick's Alarm</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        
+    </head>
+    <body>
+        <button onclick="goHome()" id="returnHome" type="button">Return home</button>
+        <button onclick="snooze()" id="snooze" type="button">Snooze</button>
+        <button onclick="newPic()" id="newPicture" type="Button">New Photo</button>
+        <button onclick="getAlarm()" id="alarm" type = "button">Set Alarm</button><br>
+        <p id="wakeUp"></p>
+        <form id="alarmForm" onsubmit="noReload(event)"></form>
+        <p id="alarmTime"></p><br>
+        
+        <img id="image" alt="Your browser does not support images" width="42%" height="42%"><br>
+        
+        <audio id="audio" controls preload autoplay>
+            <source  type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+
+        <script src="js/alarmScripts.js"></script>
+    </body>
+</html>
